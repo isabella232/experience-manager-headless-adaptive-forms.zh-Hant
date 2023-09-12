@@ -10,8 +10,8 @@ hide: false
 exl-id: 0214dc2e-52ce-40e9-bef3-f4f4a7ff266f
 source-git-commit: 47ac7d03c8c4fa18ac3bdcef04352fdd1cad1b16
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 49%
+source-wordcount: '1230'
+ht-degree: 65%
 
 ---
 
@@ -61,19 +61,19 @@ AEM Formsas a Cloud Service提供好記的編輯器，可建立Headless最適化
 
 1. 登入您的 [!DNL Experience Manager Forms] 作者執行個體。
 
-1. 在 Experience Manager 登入頁面上輸入您的認證。登入後，在左上角，點選 **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
+1. 在 Experience Manager 登入頁面上輸入您的認證。登入之後，在左上角點選「**[!UICONTROL Adobe Experience Manager]**」>「**[!UICONTROL 表單]**」>「**[!UICONTROL 表單與文件]**」。
 
-1. 點選 **[!UICONTROL Create]**  > **[!UICONTROL Adaptive Forms]**. 此時會開啟精靈。在「來源」標籤中，選取一個範本：
+1. 點選「**[!UICONTROL 建立]**」>「**[!UICONTROL 最適化表單]**」。此時會開啟精靈。在「來源」標籤中，選取一個範本：
 
    ![範本](/help/assets/core-components-template.png)
 
-   當您選取範本時，會自動選取範本中指定的主題和提交動作，而且 **[!UICONTROL Create]** 按鈕已啟用。 您可以前往 **[!UICONTROL Style]** 或 **[!UICONTROL Submission]** 索引標籤以選取不同的主題或提交動作。 如果選取的範本並未指定主題，則「建立」按鈕將維持停用狀態。您可以前往 **[!UICONTROL Styles]** 標籤以手動選取主題。
+   選取範本時，會自動選取範本中指定的主題和提交動作，且「**[!UICONTROL 建立]**」按鈕已啟用。您可以前往「**[!UICONTROL 樣式]**」或「**[!UICONTROL 提交]**」標籤，選取不同的主題或提交動作。如果選取的範本並未指定主題，則「建立」按鈕將維持停用狀態。您可以前往「**[!UICONTROL 樣式]**」標籤以手動選取主題。
 
-1. 在 **[!UICONTROL Style]** 索引標籤中，選取主題：
+1. 在「**[!UICONTROL 樣式]**」標籤中，選取一個主題：
 
    * 所選取的範本指定主題時，就會在精靈中自動選取該主題。您也可以從「樣式」標籤中選擇不同的主題。
 
-   * 如果選取的範本未指定主題，您可以使用「樣式」標籤選擇主題。此 **[!UICONTROL Create]** 只有在選取主題後，才會啟用按鈕。
+   * 如果選取的範本未指定主題，您可以使用「樣式」標籤選擇主題。只有在選取主題之後，「**[!UICONTROL 建立]**」按鈕才會啟用。
 
 1. (選用) 在「資料」標籤中，選取一個資料模型：
 
@@ -83,21 +83,21 @@ AEM Formsas a Cloud Service提供好記的編輯器，可建立Headless最適化
 
    根據預設，系統會自動選取相關聯 JSON 結構描述的所有欄位，並轉換成對應的最適化表單元件，進而簡化編寫流程。該精靈提供額外的便利性，讓您透過核取方塊就能選擇性地選擇要在最適化表單中納入哪些欄位。
 
-1. 在 **[!UICONTROL Submission]** 索引標籤中，選取提交動作：
+1. 在「**[!UICONTROL 提交]**」標籤中，選取提交動作：
 
-   * 您選取範本後，系統會自動選取範本中指定的提交動作。您可以從「提交」標籤選取不同的提交動作。此 **[!UICONTROL  Submission]** 索引標籤會顯示所有可用的提交動作。
+   * 您選取範本後，系統會自動選取範本中指定的提交動作。您可以從「提交」標籤選取不同的提交動作。「**[!UICONTROL 提交]**」標籤會顯示所有可用的提交動作。
 
-   * 當選取的範本未指定提交動作時，您可以使用 **[!UICONTROL Submission]** 標籤以選取提交動作
+   * 所選取的範本未指定提交動作時，您可以使用「**[!UICONTROL 提交]**」標籤選取提交動作
 
-1. （選用）在 **[!UICONTROL Delivery]** 索引標籤上，您可以指定最適化表單的發佈或取消發佈日期。
+1. (選用) 在「**[!UICONTROL 傳遞]**」標籤中，您可以為最適化表單指定發佈或取消發佈日期。
 
-1. 點選 **[!UICONTROL Create]**。此時會顯示一個對話框，以指定標題、名稱和儲存最適化表單的位置：
+1. 點選「**[!UICONTROL 建立]**」。此時會顯示一個對話框，以指定標題、名稱和儲存最適化表單的位置：
 
-   * **[!UICONTROL Title]** 指定表單的顯示名稱。 標題有助於在 [!DNL Experience Manager Forms] 使用者介面中識別表單。
-   * **[!UICONTROL Name:]** 指定表單的名稱。 存放庫中會建立具有指定名稱的節點。您開始輸入標題時，就會自動產生名稱欄位的值。您可以變更建議的值。名稱欄位只能包含字母數字字元、連字號和底線。所有無效的輸入都會以連字號取代。
-   * **[!UICONTROL Path:]** 指定最適化表單的儲存位置。 您可以將最適化表單直接儲存在 `/content/dam/formsanddocuments`，或建立一個資料夾 (例如 `/content/dam/formsanddocuments/adaptiveforms`) 以儲存最適化表單。要使用路徑中的資料夾之前，請務必先建立該資料夾。此 **[!UICONTROL Path]** 欄位不會自動建立資料夾。
+   * **[!UICONTROL 標題：]**&#x200B;指定表單的顯示名稱。標題有助於在 [!DNL Experience Manager Forms] 使用者介面中識別表單。
+   * **[!UICONTROL 名稱：]**&#x200B;指定表單的名稱。存放庫中會建立具有指定名稱的節點。您開始輸入標題時，就會自動產生名稱欄位的值。您可以變更建議的值。名稱欄位只能包含字母數字字元、連字號和底線。所有無效的輸入都會以連字號取代。
+   * **[!UICONTROL 路徑：]**&#x200B;指定最適化表單的儲存位置。您可以將最適化表單直接儲存在 `/content/dam/formsanddocuments`，或建立一個資料夾 (例如 `/content/dam/formsanddocuments/adaptiveforms`) 以儲存最適化表單。要使用路徑中的資料夾之前，請務必先建立該資料夾。「**[!UICONTROL 路徑]**」欄位不會自動建立資料夾。
 
-1. 點選 **[!UICONTROL Create]**。此時已建立最適化表單，並在最適化表單編輯器中開啟。編輯器會顯示範本中可用的內容。根據最適化表單的型別，關聯中的表單元素 <!--XFA form template, XML schema or --> JSON結構描述或表單資料模型會顯示在 **[!UICONTROL Data Model Objects]** 的標籤 **[!UICONTROL Content Browser]** 在側邊欄中。 您也可以拖放這些元素以建置自己的最適化表單。
+1. 點選「**[!UICONTROL 建立]**」。此時已建立最適化表單，並在最適化表單編輯器中開啟。編輯器會顯示範本中可用的內容。視最適化表單的類型而定，出現在相關聯 <!--XFA form template, XML schema or -->JSON 結構描述或表單資料模型中的表單元素，會顯示在側邊欄「**[!UICONTROL 內容瀏覽器]**」的「**[!UICONTROL 資料模型物件]**」標籤中。您也可以拖放這些元素以建置自己的最適化表單。
 
 現在，您可以將最適化Forms元件拖放至最適化Forms容器來設計和建立表單。
 
