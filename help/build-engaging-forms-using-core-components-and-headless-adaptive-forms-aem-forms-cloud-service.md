@@ -5,10 +5,10 @@ description: 使用核心元件和 Headless 建置吸引人的表單
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
+source-git-commit: bcc51bcae3b26cf20e7c0b5b75935bf69a991731
 workflow-type: tm+mt
 source-wordcount: '2452'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -84,9 +84,9 @@ ht-degree: 86%
 1. 為表單建立一個提交端點：
 
    1. 在新的瀏覽器標籤中打開 <https://requestbin.com/>。
+   1. 點選 **Create a public bin** 並複製端點 URL。
       ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
 
-   1. 點選 **Create a public bin** 並複製端點 URL。
       ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
 
 1. 使用精靈介面編寫最適化表單：
@@ -103,8 +103,7 @@ ht-degree: 86%
    1. 點選 **Style** 標籤，選擇&#x200B;**wknd-theme**主題，如下圖：
       ![](/help/assets/screenshot202023-03-0120at206.09.2320pm.png)
 
-   1. 點擊 **Submission** 標籤並選擇 **Submit to REST end-point** 卡並在
-      **POST 要求的 URL** 欄位如下所示：
+   1. 按一下 **提交** 標籤並選取 **提交至REST端點** 卡片，並在中指定公用bin **POST請求的URL** 欄位，如下所示：
       ![](/help/assets/screenshot202023-03-0120at206.09.5320pm.png)
 
    1. 按一下&#x200B;**建立**。為表單指定名稱和標題。例如， **註冊**. 按一下&#x200B;**建立**。
@@ -115,10 +114,6 @@ ht-degree: 86%
    1. 從「元件」瀏覽器拖放元件以建立表單，如下所示：
 
       ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
-
-
-
-
 
 1. 將驗證新增至表單：
 
@@ -241,7 +236,7 @@ ht-degree: 86%
 
    >[!NOTE]
    >
-   > * 如果您收到要求透過 `npm notice Run npm nstall -g npm@9.6.0` 命令更新 npm 的訊息，請忽略該訊息。
+   > * 如果您收到訊息，要求透過更新npm `npm notice Run npm nstall -g npm@9.6.0` 命令，忽略訊息。
    > * 除非活頁簿中有指示，否則不要執行其他 npm 命令。
 
 1. 現在執行以下命令來預覽表單。
