@@ -4,17 +4,15 @@ seo-title: Build Engaging Forms Using Core Components and Headless
 description: 使用核心元件和 Headless 建置吸引人的表單
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
-hide: true
-hidefromtoc: true
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
-source-git-commit: 2332af82ea221086c3b014989651e34726040ba2
+source-git-commit: 428416d61f236396449d26df208bf284a1ad162f
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 90%
+source-wordcount: '2452'
+ht-degree: 86%
 
 ---
 
-# 使用核心元件和 Headless 建置吸引人的表單 AEM Formsas a Cloud Service上的最適化Forms {#build-engaging-forms-using-core-components-and-headless}
+# 在AEM Formsas a Cloud Service上使用核心元件和Headless最適化Forms打造引人入勝的Forms {#build-engaging-forms-using-core-components-and-headless}
 
 ## 實驗室概觀 {#lab-overview}
 
@@ -36,7 +34,7 @@ ht-degree: 90%
 
 * 安裝 [最新版本的Git](https://git-scm.com/downloads). 如果您是Git的新手，請參閱 [安裝Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
-* 安裝 [Node.js 16.13.0或更新版本](https://nodejs.org/en/download/). 如果您是初次使用Node.js，請參閱 [如何安裝Node.js](https://nodejs.dev/en/learn/how-to-install-nodejs).
+* 安裝 [Node.js 16.13.0或更新版本](https://nodejs.org/en/download/). 如果您是初次使用Node.js，請參閱 [如何安裝Node.js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs).
 
 * [啟用最適化Forms核心元件](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md) 適合您的AEM Formsas a Cloud Service環境。
 
@@ -59,15 +57,16 @@ ht-degree: 90%
 1. 打開瀏覽器並輸入 Cloud Service 編寫環境的 URL。例如：
    [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html)
 
-1. 登入 Cloud Service 編寫環境。
+1. 登入Cloud Service作者環境。
+   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
 
 1. 若要導覽至AEM Forms UI，請按一下 **Forms > Forms與檔案**.
 
-   ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+
 
    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
 
-   關閉任何與偏好設定或資訊相關的快顯視窗。顯示所有可用的表格。
+   關閉任何與偏好設定或資訊相關的快顯視窗。 顯示所有可用的表格。
 
 
 ## 第二課
@@ -134,9 +133,9 @@ ht-degree: 90%
 
    1. 點擊&#x200B;**預覽**，從終端使用者的角度預覽表單。
 
-   1. 用虛擬資料填寫表格.
+   1. 以虛擬資料填入表單。
 
-   1. 提交表單.
+   1. 提交表單。
       ![](/help/assets/screenshot2028125729.png)
 
    1. 在 Request Bin 標籤中，檢查提交的資料。
@@ -224,6 +223,13 @@ ht-degree: 90%
 
      ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
 
+1. 在AEM環境中建立本機使用者。
+
+   >[!NOTE]
+   > 若要建立本機使用者：
+   > 前往 `AEM Home` > `Tools` > `Security` > `Users`
+   > 確定使用者是forms-users群組的成員。
+
 
 1. 在命令提示字元視窗中，執行以下命令：
 
@@ -246,7 +252,10 @@ ht-degree: 90%
 
    ![](/help/assets/screenshot2028117229.png)
 
-   執行上述命令後，等待 `webpack compiled` 訊息。表單會顯示在瀏覽器標籤中。
+   執行上述命令後，請等待 `webpack compiled` 訊息後，您會重新導向至AEM登入頁面。
+
+1. 按一下 **本機登入（僅限管理員工作）** 在AEM登入頁面上。
+1. 輸入已建立本機使用者的認證，表單就會顯示在瀏覽器標籤中。
 
    >[!NOTE]
    >
